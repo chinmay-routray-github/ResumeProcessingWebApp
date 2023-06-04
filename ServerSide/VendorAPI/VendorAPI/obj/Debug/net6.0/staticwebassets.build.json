@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DCQ3H85V10xQLE69IA8kPinqSPc0wnjNi5HfvI6Qrbw=",
+  "Source": "VendorAPI",
+  "BasePath": "_content/VendorAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

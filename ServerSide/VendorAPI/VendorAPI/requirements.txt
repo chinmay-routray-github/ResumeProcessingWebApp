@@ -1,0 +1,7 @@
+﻿Microsoft.AspNetCore.Authentication.JwtBearer
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.IdentityModel.Tokens
+Pomelo.EntityFrameworkCore.MySql
+Swashbuckle.AspNetCore
+System.IdentityModel.Tokens.Jwt
