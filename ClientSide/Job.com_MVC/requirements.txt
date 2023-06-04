@@ -1,0 +1,3 @@
+﻿iTextSharp
+Microsoft.AspNetCore.Authentication.Cookies
+Newtonsoft.Json
