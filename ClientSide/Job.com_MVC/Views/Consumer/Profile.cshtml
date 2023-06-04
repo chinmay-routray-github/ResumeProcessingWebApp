@@ -1,0 +1,40 @@
+﻿@model JobSearchApp_MVC.Models.Consumer
+
+@{
+    ViewData["Title"] = "Job.com";
+}
+<div class="navigation">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Consumer" asp-action="Profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Consumer" asp-action="JobsCreated"> Jobs Created </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Consumer" asp-action="JobPosting"> JobPosting </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a class="nav-item mr-3 nav-link p-3" asp-controller="Home" asp-action="Logout">Logout</a>
+    </nav>
+</div>
+
+<div class="details">
+    <h6> Hi ! @Model.ConsumerName</h6>
+    <p> Have a great day !</p>
+    <br />
+    <p> These are your details :</p>
+    <p> Phone Number : @Model.PhoneNumber</p>
+    <p> Company Name : @Model.CompanyName</p>
+    <p> Consumer Email : @Model.Email</p>
+</div>
+

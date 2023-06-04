@@ -1,0 +1,58 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+
+}
+
+.welcome-page {
+    /*margin-top: 120px;
+    margin-left: 90px;*/
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: -40px;
+    padding-top: 100px;
+    padding-left: 90px;
+    background-image: url("..//appimages/photo-1580894732444-8ecded7900cd.jpg");
+    background-size: 1100px;
+    font-family:cursive
+}
+
+.login-box {
+    margin-top: -40px;
+    margin-left:-50px;
+    margin-right:-50px;
+    padding-top: 90px;
+    padding-left: 500px;
+    background-image: url(..//AppImages/Index-.jpg);
+    background-size: 1150px;
+    padding-bottom: 250px;
+}
+
+.helper-box {
+    padding-top: 30px;
+    margin-left: 950px;
+
+}
+
+.signup-box {
+    margin-top:-40px;
+    margin-right:-50px;
+    margin-left: -50px;
+    padding-left: 40px;
+    background-image: url('..//AppImages/working-at-infosys.png');
+    background-size: 1300px;
+}

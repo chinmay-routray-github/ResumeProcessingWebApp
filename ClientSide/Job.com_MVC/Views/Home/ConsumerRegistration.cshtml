@@ -1,0 +1,68 @@
+﻿@model JobSearchApp_MVC.Models.Consumer
+
+@{
+    ViewData["Title"] = "Job.com";
+}
+
+<div class="signup-box" class="row">
+    <div class="col-md-4 offset-md-1">
+        <br />
+        <br />
+        <h4> Welcome! Be a Job Provider </h4>
+        <form asp-controller="Consumer" asp-action="signup" method="post">
+            <div class="form-group">
+                <label asp-for="ConsumerName" class="control-label"> Full Name </label>
+                <input asp-for="ConsumerName" type="text" class="form-control" />
+                <span asp-validation-for="ConsumerName" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"> Phone Number </label>
+                <input asp-for="PhoneNumber" type="text" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="CompanyName" class="control-label"> CompanyName </label>
+                <input asp-for="CompanyName" type="text" class="form-control" />
+                <span asp-validation-for="CompanyName" class="text-danger"></span>
+            </div>
+            <br />
+             <div class="form-group">
+               <label asp-for="WebsiteUrl" class="control-label"> Website Url </label>
+                <input asp-for="WebsiteUrl" type="text" class="form-control" type="url"/>
+                <span asp-validation-for="WebsiteUrl" class="text-danger"></span>
+            </div>
+            <br />
+             <div class="form-group">
+                <label asp-for="Email" class="control-label"> Email </label>
+                <input asp-for="Email" type="text" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"> Password </label>
+                <input asp-for="Password" type="text" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <br />
+
+            <br />
+            <div class="col-md-6">
+                <div class="form-group">
+                    <button id="button" type="submit" name="submit" formmethod="post" class="btn btn-success">Register</button> 
+                    @*<a asp-area="" asp-controller="Consumer" asp-action="signup" class="btn btn-success"> Register </a>*@
+                </div>
+            </div>
+        </form>
+        <br />
+        <br />
+        <br />
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

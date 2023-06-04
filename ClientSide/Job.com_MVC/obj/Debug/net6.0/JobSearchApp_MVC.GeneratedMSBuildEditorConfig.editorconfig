@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = JobSearchApp_MVC
+build_property.RootNamespace = JobSearchApp_MVC
+build_property.ProjectDir = C:\Users\chinmay.routray\Desktop\ResumeProcessingWebsite\ClientSide\JobSearchApp_MVC\JobSearchApp_MVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\chinmay.routray\Desktop\ResumeProcessingWebsite\ClientSide\JobSearchApp_MVC\JobSearchApp_MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Candidate/ApplicationForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXEFwcGxpY2F0aW9uRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Candidate/GetJobs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXEdldEpvYnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Candidate/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Consumer/JobPosting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VtZXJcSm9iUG9zdGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Consumer/JobsCreated.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VtZXJcSm9ic0NyZWF0ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Consumer/MatchedResume.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VtZXJcTWF0Y2hlZFJlc3VtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Consumer/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VtZXJcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Home/CandidateLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYW5kaWRhdGVMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Home/CandidateRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYW5kaWRhdGVSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Home/ConsumerLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25zdW1lckxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Home/ConsumerRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25zdW1lclJlZ2lzdHJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Home/VendorLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZW5kb3JMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Home/VendorRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZW5kb3JSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Vendor/GetJobs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yXEdldEpvYnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Vendor/GetResumes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yXEdldFJlc3VtZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Vendor/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yXFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chinmay.routray/Desktop/ResumeProcessingWebsite/ClientSide/JobSearchApp_MVC/JobSearchApp_MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3htk8qh42l

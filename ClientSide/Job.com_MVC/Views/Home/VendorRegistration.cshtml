@@ -1,0 +1,62 @@
+﻿@model JobSearchApp_MVC.Models.Vendor
+
+@{
+    ViewData["Title"] = "Job.com";
+}
+
+<div class="signup-box" class="row">
+    <div class="col-md-4 offset-md-1">
+        <br />
+        <br />
+        <h4>Welcome! Be a Job Facilitator</h4>
+        <form asp-controller="Vendor" asp-action="SignUp" method="post">
+            <div class="form-group">
+                <label asp-for="VendorName" class="control-label"> Full Name </label>
+                <input asp-for="VendorName" type="text" class="form-control" />
+                <span asp-validation-for="VendorName" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"> Phone Number </label>
+                <input asp-for="PhoneNumber" type="text" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="WebsiteUrl" class="control-label"> Website Url </label>
+                <input asp-for="WebsiteUrl" type="text" class="form-control" type="url"/>
+                <span asp-validation-for="WebsiteUrl" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"> Email </label>
+                <input asp-for="Email" type="text" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"> Password </label>
+                <input asp-for="Password" type="text" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <br />
+
+            <br />
+            <div class="col-md-6">
+                <div class="form-group">
+                    <button id="button" type="submit" name="submit" formmethod="post" class="btn btn-success">Register</button> 
+                    @*<a asp-action="VendorLogin" class="btn btn-success"> Register </a>*@
+                </div>
+            </div>
+        </form>
+        <br />
+        <br />
+        <br />
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

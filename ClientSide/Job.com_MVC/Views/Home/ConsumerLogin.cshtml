@@ -1,0 +1,38 @@
+﻿@model JobSearchApp_MVC.Models.User
+
+@{
+    ViewData["Title"] = "Job.com";
+}
+
+<div class="login-box" class="row">
+    <div class="col-md-4 offset-md-3">
+        <h1></h1>
+        <form asp-controller="Consumer" asp-action="ConsumerLogin" method="post">
+            <div class="form-group">
+                <label asp-for="email" class="control-label"> Email </label>
+                <input asp-for="email" type="text" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="password" class="control-label"> Password </label>
+                <input asp-for="password" type="password" class="form-control" />
+                <span asp-validation-for="password" class="text-danger"></span>
+            </div>
+            
+            <br />
+            <div class="col-md-12">
+                <div class="form-group">
+                    &nbsp; &nbsp<button id="button" type="submit" name="submit" formmethod="post" class="btn btn-primary">Login</button> &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a asp-controller="Home" asp-action="ConsumerRegistration" class="btn btn-primary"> SignUp </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
